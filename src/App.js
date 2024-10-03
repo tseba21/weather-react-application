@@ -1,10 +1,13 @@
+import React from "react";
+import Weather from "./weather";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <div className="container">
+        <Weather defaultCity="Addis Ababa" />
+      </div>
     </div>
   );
 }
