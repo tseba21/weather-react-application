@@ -78,7 +78,11 @@ export default function Weather(props) {
             open-sourced on GitHub
           </a>{" "}
           and{" "}
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://astonishing-kashata-0b0d3d.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             hosted on Netlify
           </a>
         </footer>
